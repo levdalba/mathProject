@@ -1,0 +1,97 @@
+.welcome {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    padding: 0 10%;
+    box-sizing: border-box;
+    margin-top: -150px;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.welcome p {
+    font-size: 1.5em;
+    color: #b96e6e;
+    margin-bottom: 20px;
+    padding: 5px;
+
+}
+
+.welcome img {
+    width: 100%;
+    max-width: 500px;
+    /* Adjust this value as needed */
+    height: auto;
+    margin-left: 20px;
+
+}
+
+@media (max-width: 768px) {
+    .welcome {
+        flex-direction: column;
+        padding: 10% 10%;
+    }
+
+    .welcome img {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .content {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+.scroll-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2em;
+}
+
+.welcome .scroll-text {
+    color: #3879be;
+    text-decoration: none;
+    font-size: 30px
+}
+
+.scroll-text img {
+    width: 50px;
+    height: 25px;
+    display: flex;
+    margin: auto;
+}
+
+.scroll-text .pp {
+    font-size: 25px;
+    color: #33373b;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome .scroll-text .button {
+    font-size: 25px;
+    color: #33373b;
+    text-decoration: none;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+
+.welcome .scroll-text {
+    width: 100%;
+}
+
+.linear h2 {
+    margin-left: 40px;
+    margin-top: 20px;
+}

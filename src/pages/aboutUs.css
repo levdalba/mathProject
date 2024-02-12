@@ -1,0 +1,56 @@
+.about-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-image {
+    width: 495px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.about-us-content {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(193, 112, 112, 0.1);
+}
+
+.about-us-heading {
+    color: #333;
+    font-weight: bold;
+}
+
+.about-us-text {
+    color: #555;
+    padding: 10px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slide-in {
+    animation: slideInFromLeft 1s ease-out;
+}
